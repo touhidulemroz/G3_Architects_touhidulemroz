@@ -8,6 +8,7 @@
   font-weight: 400;
   font-style: normal;
 }
+/* -------------------------------- */
 
 /* Global -- Shared Styles  */
 .display-flex {
@@ -46,6 +47,13 @@ main{
 main >section {
     margin-top: 80px;
 }
+
+.section-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+/* -------------------------------- */
 
 /* Header Styles  */
 
@@ -124,10 +132,7 @@ main >section {
     max-width: 530px;
 }
 
-.feature-title {
-    font-size: 2.8rem;
-    font-weight: 700;
-}
+
 
 #quick-list {
     font-weight: 500;
@@ -164,4 +169,24 @@ main >section {
         text-align: center;
         margin-left: 0;
     }
+}
+
+
+
+
+
+
+
+/* some facts styles  */
+
+.facts-card-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fact-card {
+    border: 1px solid #72727241;
+    border-radius: 5px;
+    padding: 8px;
+    width: 200px;
 }
